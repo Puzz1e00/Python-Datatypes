@@ -50,3 +50,4 @@ print(o)
 message=f"I study at {a}"
 print(message)
 print('i am {} and I am {} years old.'.format('John Doe',23))#another way of formating
+print('{a}, {b}, {c}'.format(a='foo', b='bar', c='baz'))#anothe rway of formating
