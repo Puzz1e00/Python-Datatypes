@@ -1,5 +1,3 @@
-a="broadway"
-# triple quoted characters are also strings
 """
 triple quoted can be used to write comments
 """
@@ -17,4 +15,10 @@ print(c)
 strl="Hello World"
 x=slice(2,5)#slicing
 print(strl[x])
-
+#Python String methods
+d=strl.capitalize()#capitalization- capitalizes first letter in first word
+print(d)
+e=strl.upper()#Capitalizes all letters in the string
+print(e)
+f=strl.lower()# all small letters
+print(f)
